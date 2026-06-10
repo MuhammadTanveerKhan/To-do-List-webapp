@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600&display=swap');
+
+*{
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: #eae4ff;
+    color: #111827;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   font-family: 'Poppins', sans-serif;
+
+}
+#cont{
+ height: 90vh;
+    width: 85vw;
+    background-color: #ffffff;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius:3%;
+display: flex;
+position: relative;
+}
+#logo{
+    height: 5rem;
+    width: 5rem;
+    background:#7c5cfc;
+    border-radius: 15%;
+    margin-top: 2%;
+    margin-left: 2%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    
+}
+#logo > svg{
+    height: 3rem;
+    width: auto;
+}
+#head{
+
+ margin-top: 3%;
+    margin-left: 0.5%;
+}
+#theme{
+    position: absolute;
+    height: 3rem;
+    width: 3rem;
+    background-color:#ffffff;
+    border-radius: 50%;
+   border: 1px solid rgb(90, 90, 90);
+    right: 4%;
+    top: 8%;
+    box-shadow: 7px 5px 9px grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#theme > svg{
+    height: fit-content;
+    width: auto;
+}
+#cont2{
+    height: 60vh;
+    width: 60vw;
+    border: 1px solid black;
+    position:absolute;
+    top: 22%;
+    left: 14%;
+    display: flex;
+    flex-direction: column;
+     box-shadow: 2px 2px 5px grey;
+     border: 1px solid grey;
+border-radius: 10px;
+
+}
+#cont2  #input{
+    height: 45px;
+    width:75% ;
+    margin-top: 2%;
+    margin-left: 2%;
+    border-radius: 10px;
+    padding-left: 3%;
+    border: 1px solid grey;
+    box-shadow: 2px 2px 5px grey;
+    
+}
+#input-row {
+    display: flex;
+    align-items: center; /* Vertically aligns the centers of input and button */
+    width: 100%;
+    gap: 16px; /* Explicit spacing between the elements instead of tricky margins */
+}
+#addtask{
+    height: 45px;
+    width:15% ;
+    margin-top: 2%;
+    margin-left: 3%;
+    border-radius: 10px;
+    text-align: center;
+     background:#7c5cfc;
+     color: #ffffff;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-weight: 400;
+    cursor:pointer;
+}
+
+
+
+
+#cont2 hr{
+    width: 100%;
+    border: none;
+    height: 1px;
+    background:grey;
+    margin: 20px 0;
+}
+#list{
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    height: 100%;
+    width: 85%;
+    overflow-y: auto;
+    
+}
+
+#list li{
+    width: 85%;
+    border: 1px solid grey;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+#deleteBtn{
+    height: 30px;;
+    width:25px;
+    margin-left: auto;
+    border: 1px solid grey;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(210, 190, 190);
+
+}
+#check {
+    height: 30px;
+    width: 25px;
+    margin-right: 10px;
+    border: 1px solid grey;
+    border-radius: 50%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex: none;
+    
+}

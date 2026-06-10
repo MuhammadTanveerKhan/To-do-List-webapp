@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="cont">
+       <div id="logo">
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+<path d="M5 12L10 17L19 8"
+stroke="white"
+stroke-width="2.5"
+stroke-linecap="round"
+stroke-linejoin="round"/>
+</svg>
+       </div>
+    <header id="head">
+     <h1>
+        TO-Do List
+     </h1>
+     <pre> organize your task and get things done</pre>
+     <button id="theme">
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="2"/>
+
+  <line x1="12" y1="2" x2="12" y2="5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+  <line x1="12" y1="19" x2="12" y2="22" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+
+  <line x1="2" y1="12" x2="5" y2="12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+  <line x1="19" y1="12" x2="22" y2="12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+
+  <line x1="4.9" y1="4.9" x2="7" y2="7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+  <line x1="17" y1="17" x2="19.1" y2="19.1" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+
+  <line x1="17" y1="7" x2="19.1" y2="4.9" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+  <line x1="4.9" y1="19.1" x2="7" y2="17" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+</svg>
+     </button>
+    </header>
+    <div id="cont2">
+      <div id="input-row">
+        <input type="text" placeholder="what do you want to add?" required id="input" >
+        <button id="addtask">
+          Add Task<svg xmlns="http://www.w3.org/2000/svg"
+     width="24"
+     height="24"
+     viewBox="0 0 24 24"
+     fill="none">
+  <path d="M12 5V19" stroke="white" stroke-width="2"/>
+  <path d="M5 12H19" stroke="white" stroke-width="2"/>
+</svg>
+        </button></div>
+      <hr>
+      
+      <ol id="list">
+        
+        </ol>
+       
+  
+</div>
+<script src="todo.js"></script>
+</body>
+</html>
