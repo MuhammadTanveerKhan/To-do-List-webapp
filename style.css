@@ -93,9 +93,9 @@ border-radius: 10px;
 }
 #input-row {
     display: flex;
-    align-items: center; /* Vertically aligns the centers of input and button */
+    align-items: center; 
     width: 100%;
-    gap: 16px; /* Explicit spacing between the elements instead of tricky margins */
+    gap: 16px; 
 }
 #addtask{
     height: 45px;
@@ -127,7 +127,6 @@ border-radius: 10px;
 }
 #list{
     display: flex;
-    /* align-items: center; */
     flex-direction: column;
     height: 100%;
     width: 85%;
